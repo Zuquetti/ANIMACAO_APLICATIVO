@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .disquete
+        {
+            position: relative;
+            width: 300px;
+            top: 0px;
+            left: center;
+            animation: anima_disquete 1s infinite alternate;
+        }
+        @keyframes anima_disquete
+        {
+            0% { transform: translate(0px, 280px);}
+            100% {transform: translate(0px,350px);}
+
+        }
+        body
+        {
+            background-color: darkblue;
+            color: white;
+            padding-left: 5%;
+        }
+        .texto
+        {
+            width: 200px;
+            margin-left: 35%;
+        }
+    </style>
+</head>
+<body>
+    <img src="DISQUETE2.png" class="disquete">
+    <div class="texto">
+        Loading....
+    </div>
+</body>
+</html>
